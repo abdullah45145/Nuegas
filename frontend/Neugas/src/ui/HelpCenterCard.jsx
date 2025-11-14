@@ -17,12 +17,12 @@ const HelpCenterCard = () => {
         </p>
       </div>
 
-      <button className="bg-white text-black text-xs sm:text-xs px-5 py-2 sm:px-4 sm:py-2.5 rounded-lg font-semibold mt-8 transition hover:bg-gray-100">
+      <button className="bg-white cursor-pointer text-black z-78 text-xs sm:text-xs px-5 py-2 sm:px-4 sm:py-2.5 rounded-lg font-semibold mt-8 transition hover:bg-gray-100">
         Go To Help Center
       </button>
 
-      <div className="absolute h-[160px] w-[160px] bg-[#FFFFFF14] rounded-full -top-20 -left-20"></div>
-      <div className="absolute h-[160px] w-[160px] bg-[#FFFFFF14] rounded-full -bottom-20 -right-20"></div>
+      <div className="absolute h-[160px] w-[160px] bg-[#FFFFFF14] rounded-full -top-20 -left-25"></div>
+      <div className="absolute h-[160px] w-[160px] bg-[#FFFFFF14] rounded-full -bottom-20 -right-25"></div>
           <div className="absolute -top-6 flex justify-center items-center">
         <div className="bg-[#141522] rounded-full shadow-[0_0_24px_#54577A]">
           <HelpCircle className=" text-[#FFFFFF]" size={50} />

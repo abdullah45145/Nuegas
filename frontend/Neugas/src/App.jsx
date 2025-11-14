@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="flex min-h-screen">
         <Sidebar />
-        <main className="flex-1 bg-gray-50 p-6">
+        <main className="flex-1 ">
           <Routes>
             <Route path="/overview" element={<Overview />} />
             <Route path="/task" element={<Task />} />

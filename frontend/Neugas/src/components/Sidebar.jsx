@@ -38,7 +38,7 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`fixed md:static top-0 left-0 h-full md:h-screen bg-white border-r border-gray-100 flex flex-col justify-between p-6 z-50 w-60 transform transition-transform duration-300
+        className={`fixed md:static top-0 left-0 min-h-screen overflow-hidden  md:min-h-screen bg-white border-r border-gray-100 flex flex-col justify-between p-6 z-50 w-60 transform transition-transform duration-300
           ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
       >
         {/* Logo + Name */}
