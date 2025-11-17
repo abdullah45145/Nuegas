@@ -32,7 +32,7 @@ const NotificationBell = () => {
 };
 
 // ✅ Main header component
-const Header = ({ userName = "Skylar Dias", motivationText = "Let's finish your task today!" }) => {
+const Header = ({ userName = " Abdullah", motivationText = "Let's finish your task today!" }) => {
   return (
     <header className="flex flex-col sm:flex-row justify-between items-center p-4 sm:p-6 bg-white  max-w-5xl mx-auto  gap-3 sm:gap-0">
       

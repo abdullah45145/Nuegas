@@ -29,12 +29,12 @@ const RunningTaskCard = ({ currentTasks = 65, totalTasks = 100 }) => {
       {/* Progress + Total */}
       <div className="flex items-center justify-start gap-3">
         {/* Circular Progress */}
-        <div className="relative w-[70px] h-[70px]">
+        <div className="relative w-[100px] h-[100px]">
           <svg className="w-full h-full" viewBox="0 0 120 120">
             {/* Background circle */}
             <circle
               className="text-[#2c2c45]"
-              strokeWidth="10"
+              strokeWidth="5"
               stroke="currentColor"
               fill="transparent"
               r={radius}
@@ -43,7 +43,7 @@ const RunningTaskCard = ({ currentTasks = 65, totalTasks = 100 }) => {
             />
             {/* Progress circle */}
             <circle
-              className="text-[#4e7dff]"
+              className="text-[#546FFF]"
               strokeWidth="5"
               strokeDasharray={circumference}
               strokeDashoffset={strokeDashoffset}

@@ -1,8 +1,14 @@
 import React from 'react'
+import Settingone from '../ui/Settingone'
+import Settingtwo from '../ui/settingtwo'
 
 const Setting = () => {
   return (
-    <div>Setting</div>
+  <>
+  <Settingone />
+  <Settingtwo />
+  
+  </>
   )
 }
 

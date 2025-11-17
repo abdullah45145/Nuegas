@@ -66,7 +66,7 @@ const CalendarWidget = () => {
       <div className="flex justify-between items-center">
         <NavArrow direction="left" />
         <h2 className="text-lg sm:text-sm font-semibold text-gray-800">
-          July 2022
+          July 2024
         </h2>
         <NavArrow direction="right" />
       </div>
