@@ -99,7 +99,8 @@ export default function Settings() {
             onClick={() => setActiveTab("general")}
             label="General"
           />
-          <TabButton
+          <TabButton 
+            className='cursor-pointer bg-red-500'
             name="notification"
             active={activeTab === "notification"}
             onClick={() => setActiveTab("notification")}
