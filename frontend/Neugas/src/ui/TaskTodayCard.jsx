@@ -53,13 +53,14 @@ const TaskTodayCard = () => {
         {/* Avatars */}
         <div className="flex -space-x-2">
           {[
-            1, 2, 3, 4, 5,
+            1, 2, 3, 4, 5,6
           ].map((i) => (
             <img
               key={i}
               src={`https://i.pravatar.cc/150?img=${i}`}
               className="w-6 h-6 rounded-full border-2 border-white"
             />
+            
           ))}
         </div>
       </div>
